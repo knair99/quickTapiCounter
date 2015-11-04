@@ -32,7 +32,8 @@ int main(int argc, char* argv[])
     std::cout << "Tapi calls: " << count << endl;
 }
 
-void handle_error(const char* msg) {
+void handle_error(const char* msg) 
+{
     perror(msg); 
     exit(255);
 }
